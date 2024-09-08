@@ -57,7 +57,7 @@ $ npm run test:cov
 ```
 
 ## Struct
-  - src
+  - src   
     |___ app.controller.spec.ts - unit test for controller  
     |___ app.controller.ts - Controller with a single route  
     |___ app.module.ts - Root module of application  
@@ -72,11 +72,9 @@ $ npm run test:cov
   - Nest có thể làm việc với bất kỳ Node HTTP framework nào sau khi adapter được tạo  
   - Có 2 HTTP flatforms được hỗ trợ ngay lập tức là express (NestExpressApplication) và fastity (NestFastityApplication)
 
-## Linting and Formatting
-  - Nest cung cấp cả format code với linter (eslint) và formatter (prettier)  
-
-# Lint and autofix with eslint
-  $ npm run lint  
-  
-# Format with prettier
-  $ npm run format 
+## Linting and Formatting   
+  - Nest cung cấp cả format code với linter (eslint) và formatter (prettier)    
+  - Lint and autofix with eslint   
+    $ npm run lint    
+  - Format with prettier   
+    $ npm run format 
