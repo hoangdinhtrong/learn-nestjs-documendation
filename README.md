@@ -58,11 +58,11 @@ $ npm run test:cov
 
 ## Struct
   - src
-    |___ app.controller.spec.ts - unit test for controller
-    |___ app.controller.ts - Controller with a single route
-    |___ app.module.ts - Root module of application
-    |___ app.service.ts - Service 
-    |___ main.ts - file chính của application, sử dụng NestFactory để tạo một thể hiện của Nest application
+    |___ app.controller.spec.ts - unit test for controller  
+    |___ app.controller.ts - Controller with a single route  
+    |___ app.module.ts - Root module of application  
+    |___ app.service.ts - Service  
+    |___ main.ts - file chính của application, sử dụng NestFactory để tạo một thể hiện của Nest application  
 
   - NestFactory class cung cấp một số methods tĩnh cho phép tạo một thể hiện của application:  
     + create() method trả về một application object, cái mà triển khai đủ INestApplication interface.  
